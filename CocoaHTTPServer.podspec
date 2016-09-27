@@ -20,5 +20,5 @@ Pod::Spec.new do |s|
   s.tvos.frameworks         = 'CFNetwork','Security'
   s.osx.frameworks          = 'CoreServices','Security'
   s.requires_arc            = true
-  s.dependency              = 'CocoaLumberjack'
+  s.dependency              'CocoaLumberjack'
 end
