@@ -12,7 +12,6 @@ Pod::Spec.new do |s|
   s.author                  = { "darling0825" => "darling0825@163.com" }
   s.ios.deployment_target   = '7.0'
   s.osx.deployment_target   = '10.9'
-  s.tvos.deployment_target  = '9.0'
   s.source                  = { :git => 'https://github.com/darling0825/CocoaHTTPServer.git', :tag => s.version, :submodules => true }
   s.public_header_files     = '{Core,Extensions,Vendor/CocoaAsyncSocket}/**/*.h'
   s.source_files            = '{Core,Extensions,Vendor/CocoaAsyncSocket}/**/*.{h,m}'
