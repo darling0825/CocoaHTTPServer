@@ -20,4 +20,5 @@ Pod::Spec.new do |s|
   s.osx.frameworks          = 'CoreServices','Security'
   s.requires_arc            = true
   s.dependency              'CocoaLumberjack'
+  s.libraries               = 'xml2'
 end
