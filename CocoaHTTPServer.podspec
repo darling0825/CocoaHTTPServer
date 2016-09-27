@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.public_header_files     = '{Core,Extensions,Vendor/CocoaAsyncSocket}/**/*.h'
   s.source_files            = '{Core,Extensions,Vendor/CocoaAsyncSocket}/**/*.{h,m}'
   s.ios.frameworks          = 'CFNetwork','Security'
-  s.tvos.frameworks         = 'CFNetwork','Security'
   s.osx.frameworks          = 'CoreServices','Security'
   s.requires_arc            = true
   s.dependency              'CocoaLumberjack'
